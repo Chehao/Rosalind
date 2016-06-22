@@ -1,4 +1,4 @@
-package rosalind.teman;
+package rosalind.teman.entity;
 
 public class Edge{
 	FASTA start ;		

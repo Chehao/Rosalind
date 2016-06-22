@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import rosalind.teman.entity.FASTA;
+import rosalind.teman.util.DistanceUtils;
+
 public class CreatingDistanceMatrix {
 	
 	public static void main(String[] args) {

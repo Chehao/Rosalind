@@ -1,10 +1,12 @@
-package rosalind.teman;
+package rosalind.teman.util;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+
+import rosalind.teman.entity.FASTA;
 
 public class DistanceUtils {
 
@@ -41,7 +43,7 @@ public class DistanceUtils {
 		return taxas;
 	}
 
-	static float findGCContent(String dnaString){
+	public static float findGCContent(String dnaString){
 		float count = 0 ;
 		for(int i =0; i < dnaString.length(); i++){
 			char c = dnaString.charAt(i);

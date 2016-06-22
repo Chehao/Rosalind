@@ -3,6 +3,9 @@ package rosalind.teman;
 import java.io.IOException;
 import java.util.List;
 
+import rosalind.teman.entity.FASTA;
+import rosalind.teman.util.DistanceUtils;
+
 public class OverlapGraphs {
 
 	public static void main(String[] args) {

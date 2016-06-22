@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import rosalind.teman.entity.Edge;
+import rosalind.teman.entity.FASTA;
+import rosalind.teman.util.DistanceUtils;
+
 public class GenomeAssemblyShortestSuperstring {
 	public static void main(String[] args) throws Exception {
 		try {
